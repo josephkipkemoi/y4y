@@ -1,3 +1,4 @@
+import { Link } from "react-router-dom"
 import Logo from "../logo.png"
 import "./main.css"
 
@@ -13,7 +14,7 @@ const MainComponent = () => {
 
                     Get involved today and be a part of something amazing!
                 </p>
-                <button className="btn btn-primary btn-lg shadow-sm rounded-5 p-2 w-25">Join Us</button>
+                <Link to="/join-us" className="btn btn-primary btn-lg shadow-sm rounded-5 p-2 w-25">Join Us</Link>
             </div>
             <div className="d-sm-flex flex-column align-items-center w-100">
                 <img src={Logo} className="mt-5" alt="logo"/>

@@ -5,6 +5,7 @@ import App from './App';
 import reportWebVitals from './reportWebVitals';
 import { createBrowserRouter, RouterProvider } from 'react-router-dom';
 import About from './pages/about';
+import Join from './pages/join';
 
 const router = createBrowserRouter([{
   path: "/",
@@ -12,6 +13,9 @@ const router = createBrowserRouter([{
 }, {
   path:"/about-us",
   element: <About/>,
+}, {
+  path: "/join-us",
+  element: <Join/>,
 }])
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
