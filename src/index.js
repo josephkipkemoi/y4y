@@ -6,6 +6,8 @@ import reportWebVitals from './reportWebVitals';
 import { createBrowserRouter, RouterProvider } from 'react-router-dom';
 import About from './pages/about';
 import Join from './pages/join';
+import Donate from './pages/donate';
+import Events from './pages/events';
 
 const router = createBrowserRouter([{
   path: "/",
@@ -16,6 +18,12 @@ const router = createBrowserRouter([{
 }, {
   path: "/join-us",
   element: <Join/>,
+}, {
+  path: "/donate",
+  element: <Donate/>,
+}, {
+  path: "/events",
+  element: <Events/>,
 }])
 
 const root = ReactDOM.createRoot(document.getElementById('root'));

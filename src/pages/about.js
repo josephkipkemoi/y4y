@@ -1,10 +1,13 @@
+import { Link } from "react-router-dom"
 import HeaderComponent from "../components/header"
+import Footer from "../components/footer"
 
 const About = () => {
     return (
         <div>
             <HeaderComponent/>
             <Members/>
+            <Footer/>
         </div>
     )
 }
@@ -16,7 +19,7 @@ const Members = () => {
                 About Us
             </h1>
            <p>
-            Welcome to our Youth Empowerment Platform, a vibrant community where young people come together to create opportunities, develop skills, and foster positive change. Our platform was founded by three dynamic youth groups — Tegemeo Youth Group, Amua Youth Group, and Maendeleo Youth Group — with the aim of empowering the next generation through meaningful engagement, inclusivity, learning, and community-building.
+            Welcome to our Youth Empowerment Platform, a vibrant community where young people come together to create opportunities, develop skills, and foster positive change. Our platform was founded by three dynamic youth groups — <Link to="/members/tegemeo">Tegemeo Youth Group</Link> , <Link to="/members/amua">Amua Youth Group</Link>, <Link to="/members/maendeleo">Maendeleo Youth Group</Link> and like-minded youth — with the aim of empowering the next generation through meaningful engagement, inclusivity, learning, and community-building.
            </p>
             <h2>
                 Our Mission

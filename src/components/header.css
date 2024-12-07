@@ -1,6 +1,6 @@
 .main-header {
-    padding-top: 24px;
-    padding-bottom: 24px;
+    padding-top: 12px;
+    padding-bottom: 12px;
     background-color: rgba(237, 241, 232, 0.904);
 }
 header {
@@ -8,7 +8,10 @@ header {
     border-top-right-radius: 42px;
     border-bottom-right-radius: 42px;
     color: white;
-    padding: 32px;
+    padding-top: 18px;
+    padding-bottom: 18px;
+    padding-right: 26px;
+    max-width: 320px;
 }
 header img {
     width: 72px;

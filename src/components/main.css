@@ -1,7 +1,22 @@
-img {
-    width: 372px;
-}
 p {
     text-align: justify;
     line-height: 42px;
+}
+.logo {
+    text-align: center;
+}
+.logo img {
+    min-width: 326px;
+}
+article {
+    min-height: 80vh;
+}
+.membership a {
+    padding: 16px 22px;
+    color: white;
+    background-color: blueviolet;
+    text-decoration: none;
+    width: 174px;
+    border-radius: 12px;
+    font-weight: bold;
 }
